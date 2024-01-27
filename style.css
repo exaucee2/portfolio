@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #081b29;
+    background: whitesmoke;
     color: #ededed;
 }
 
@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent; 
+    background: rgb(129, 44, 44); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@ body {
 }
 .navbar a:hover,
 .navbar a.active{
-    color: #00abf0;
+    color: #0876a2;
 }
 .home{
     height: 100vh;
@@ -54,22 +54,23 @@ body {
 .home-content{
     max-width: 600px;
     margin: 20px 0 40px;
-    margin-left: 188px;
+    margin-left: 108px;
 }
 .home-content h1{
    font-size: 56px;
    font-weight: 700;
    line-height: 1.2;
+   color: rgb(129, 44, 44);
 }
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
-    color:#00abf0;
+    color:#0e536e;
  }
  .home-content p{
     font-size: 32px;
     font-weight: 700;
-    color:#00abf0;
+    color:#0e536e;
  }
  .home-sci{
     position: absolute;
@@ -86,10 +87,10 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid#0e536e;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #0e536e;
     text-decoration: none;
     z-index: -1;
     overflow: hidden;
@@ -115,9 +116,10 @@ body {
 
 
 .home-img img {
-    width: 50%; 
+    width: 70%; 
     max-width: 100%; 
     height: auto; 
     display: block; 
-    margin: 0 auto; 
+    margin: 0 auto;
+     
 }

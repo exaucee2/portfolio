@@ -6,7 +6,7 @@
     font-family: montserrat;
  }
  body{
-     background: #00b6c4;
+     background: #f3e8e8;
  }
  .container{
      background: #f5f5f5;
@@ -28,17 +28,7 @@
      font-size: 15px;
      font-weight: 500;
  }
- .img-area{
-     width: 200px;
-     height: 200px;
-     border-radius: 50% ;
-     overflow: hidden;
-     margin: 25px auto;
-     border: 15px groove deepskyblue;
- }
- .img-area img{
-     width: 100%;
- }
+ 
  .main{
      display: flex;
      flex-wrap: wrap;
@@ -54,7 +44,7 @@
      line-height: 2;
  }
  h2{
-     background: #00b6c4;
+     background: rgb(129, 44, 44);
      padding: 15px;
      color: #fff;
      margin: 30px 0;
