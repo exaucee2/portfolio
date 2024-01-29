@@ -2,31 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Repository</title>
+    <title>Document</title>
     <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            background-color: antiquewhite;
-        }
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-        .image-container {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px; /* Espacement entre les paires d'image et de paragraphe */
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-        img {
-            width: 500px; /* Ajustez la taille selon vos besoins */
-            margin-right: 10px; /* Espacement entre l'image et le paragraphe */
+body {
+    background: antiquewhite;
+    color: black;
+    display: flex;
+    align-items:  flex-start;
+    flex-direction: column;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(129, 44, 44); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #0876a2;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+img {
+            width: 500px;
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
-    <p>Consultez mon dépôt GitHub :</p>
+    
+    <header class="header">
+        <a href="#" class="logo">EMBUYI.</a>
+        <nav class="navbar"> 
+           <a href="index.html" class="active">Home</a>
+           <a href="About.html" >About</a>
+           <a href="resume.html">Resume</a>
+           <a href="projetcs.html">Projects</a>
+           
+        </nav>
+        
+       </header>
+
+
+     <p>Consultez mon dépôt GitHub :</p>
     <a href="https://github.com/exaucee2/EHOTEL_FINAL" target="_blank">SITE WEB D'UN HOTEL</a>
 
     <div class="image-container">
@@ -49,6 +103,6 @@
         <p>Texte pour l'image de connexion.</p>
     </div>
 
-   
+    
 </body>
 </html>

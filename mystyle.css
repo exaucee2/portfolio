@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 *{
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
-    font-family: montserrat;
+    font-family: 'Poppins',sans-serif;
  }
  body{
      background: #f3e8e8;
@@ -18,13 +19,44 @@
  
  }
  .header{
-     text-align: center;
+    
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(129, 44, 44); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
      
  }
- .header h1{
+ .logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #0876a2;
+}
+ .heading h1{
+    text-align: center;
      margin-bottom: 10px;
  }
- .header h3{
+ .heading h3{
+    text-align: center;
      text-transform: uppercase;
      font-size: 15px;
      font-weight: 500;
