@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items:  flex-start;
     flex-direction: column;
+    margin-top: 80px;
 
 }
 
@@ -55,14 +56,26 @@ body {
     color: #0876a2;
 }
 .image-container{
+    
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+   
 }
 img {
             width: 500px;
             margin-right: 10px;
+            
         }
+        .github-section {
+            text-align: center;
+            margin-top: 20px; 
+        }
+ .image-container ul {
+    
+    margin-left: 20px;
+}
+
     </style>
 </head>
 <body>
@@ -80,27 +93,48 @@ img {
        </header>
 
 
-     <p>Consultez mon dépôt GitHub :</p>
-    <a href="https://github.com/exaucee2/EHOTEL_FINAL" target="_blank">SITE WEB D'UN HOTEL</a>
+    
+       <div class="github-section">
+        <p>Consultez mon dépôt GitHub :</p>
+        <a href="https://github.com/exaucee2/EHOTEL_FINAL" target="_blank">SITE WEB D'UN HOTEL</a>
+    </div>
 
     <div class="image-container">
         <img src="accueil.png">
-        <p>Texte pour l'image d'accueil.</p>
+        <ul>
+        <li>Voici la page d'accueil du site web </li>
+    </ul>
     </div>
 
     <div class="image-container">
         <img src="reservation.png">
-        <p>Texte pour l'image de réservation.</p>
+        
+            <ul>
+                <li>Lorsqu'un client souhaite réserver une chambre via l'application, celle-ci doit vérifier la disponibilité en temps réel.</li>
+                <li> La réservation doit inclure la date d'arrivée et de départ, le type de chambre (simple, double, etc.) et toutes les commodités demandées.</li>
+                <li>  L'application doit attribuer une chambre disponible, enregistrer la réservation avec les détails du client et de la chambre.</li>
+                <li>  Si le client réserve en personne, l'employé doit pouvoir effectuer la réservation sans réservation préalable.</li>
+            </ul>
     </div>
 
     <div class="image-container">
         <img src="inscription.png">
-        <p>Texte pour l'image d'inscription.</p>
+        <ul>
+            <li>Lorsqu'un client s'enregistre dans le système, l'application doit stocker le nom complet, l'adresse et le numéro de sécurité sociale/NAS du client.</li>
+            <li>L'employé responsable de l'enregistrement doit transformer la réservation en location, enregistrant les détails de la location.</li>
+            <li> Les clients peuvent s'enregistrer en ligne ou physiquement, avec l'employé effectuant le processus de location.</li>
+        </ul>
+       
     </div>
 
     <div class="image-container">
         <img src="connexion.png">
-        <p>Texte pour l'image de connexion.</p>
+            <ul>
+                <li>Les clients doivent pouvoir se connecter à l'application en utilisant des identifiants uniques.</li>
+                <li> Une fois connectés, les clients peuvent accéder à leur historique de réservations et locations.</li>
+                <li>   Les employés se connectent avec leurs identifiants, avec des autorisations basées sur leur rôle dans l'hôtel.</li>
+                <li>  La connexion permet également aux clients de rechercher des chambres disponibles et de procéder à de nouvelles réservations.</li>
+            </ul>
     </div>
 
     
