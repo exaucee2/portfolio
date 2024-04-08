@@ -25,6 +25,7 @@ body {
 .heading h1 {
     font-size: 30px;
     color: #000;
+    margin: 45px;
     margin-bottom: 25px;
     position: relative;
 }
@@ -207,6 +208,18 @@ body {
 
 .bar:nth-child(4) .progress {
     width: 80%;
+}
+.bar:nth-child(5) .progress {
+    width: 80%;
+}
+.bar:nth-child(6) .progress {
+    width: 60%;
+}
+video.bar:nth-child(7) .progress {
+    width: 55%;
+}
+.bar:nth-child(8) .progress {
+    width: 60%;
 }
 .header {
     position: fixed;
